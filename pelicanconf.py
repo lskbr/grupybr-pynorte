@@ -12,13 +12,22 @@ from collections import OrderedDict
 
 # Configurações Base
 SITENAME = u'Python Norte'
-AUTHOR = u'Autor-Padrão'
+AUTHOR = u'PyNorte'
 THEME = "themes/malt"
 MALT_BASE_COLOR = "blue-grey"
 
+
+META_DESCRIPTION = '''O PyNorte é um grupo de usuários (profissionais e
+                      amadores) da linguagem Python, onde prezamos pela troca de
+                      conhecimento, respeito mútuo e diversidade (tanto de opinião
+                      quanto de tecnologias).'''
+
+META_KEYWORDS = ['pynorte', 'python', 'amazonas', 'desenvolvimento',
+                 'acre', 'para', 'tocantins', 'rondonia', 'roraima', 'amapa']
+
 # Referências à Github
-GITHUB_REPO = "http://github.com/grupy-xyz/grupy-xyz.github.io"
-GITHUB_BRANCH = "pelican"
+GITHUB_REPO = "https://github.com/lskbr/grupybr-pynorte"
+GITHUB_BRANCH = "master"
 
 # Imagens
 ARTICLE_BANNERS_FOLDER = "images/banners"
@@ -36,10 +45,10 @@ PYGMENTS_STYLE = "perldoc"
 
 # Navbar Links da Home Page
 NAVBAR_HOME_LINKS = [
-    {
-        "title": "Comunidade",
-        "href": "comunidade",
-    },
+    # {
+    #     "title": "Comunidade",
+    #     "href": "comunidade",
+    # },
     {
         "title": "Membros",
         "href": "membros",
@@ -69,6 +78,16 @@ NAVBAR_BLOG_LINKS = NAVBAR_HOME_LINKS + [
 # Links sociais do rodapé
 SOCIAL_LINKS = (
     {
+        "href": "https://telegram.me/joinchat/COYq6QM8RkebVUVK1WxRHQ",
+        "icon": "fa-paper-plane",
+        "text": "Telegram",
+    },
+    {
+        "href": "https://groups.google.com/d/forum/pynorte",
+        "icon": "fa-envelope",
+        "text": "Lista de e-mail",
+    },
+    {
         "href": "https://github.com/grupydf",
         "icon": "fa-github",
         "text": "Grupy-DF",
@@ -84,10 +103,15 @@ SOCIAL_LINKS = (
         "text": "Python",
     },
     {
-        "href": "https://telegram.me/joinchat/COYq6QM8RkebVUVK1WxRHQ",
-        "icon": "fa-paper-plane",
-        "text": "Telegram",
-    }
+        "href": "http://www.pythonclub.com.br/",
+        "icon": "fa-globe",
+        "text": "PythonClub",
+    },
+    {
+        "href": "http://dojoto.info/",
+        "icon": "fa-globe",
+        "text": "CodingDojoTocantins"
+    },
 )
 
 # Membros do Grupy
@@ -110,22 +134,22 @@ MALT_HOME = [
             {
                 "title": "Comunidade",
                 "icon": "fa-comments",
-                "text": "A comunidade do GrupyXYZ se comunica através de mailing " +\
-                    "lists, grupo no telegram e no slack, mas frequentemente são " +\
+                "text": "A comunidade PyNorte se comunica através de mailing " +\
+                    "lists, grupo no telegram e ocasionalmente são " +\
                     "promovidos encontros diversos, como almoços, " +\
-                    "<em>coding dojos</em> e palestras. ",
-                "buttons": [
-                    {
-                        "text": "Saiba Mais",
-                        "href": "comunidade",
-                    },
-                ],
+                    "<em>coding dojos</em>, hangouts e palestras. ",
+                # "buttons": [
+                #     {
+                #         "text": "Saiba Mais",
+                #         "href": "comunidade",
+                #     },
+                # ],
             },
             {
                 "title": "Membros",
                 "icon": "fa-users",
-                "text": "A comunidade do GrupyXYZ, apesar de extensa possui alguns " +\
-                        "colaboradores principais, responsáveis por organizar " +\
+                "text": "A comunidade PyNorte inicia sua organização, mas já possui alguns " +\
+                        "colaboradores, responsáveis por organizar " +\
                         "eventos, manter a comunicação ativa, divulgar eventos, " +\
                         "redes sociais e etc. ",
                 "buttons": [
@@ -136,75 +160,87 @@ MALT_HOME = [
                 ],
             },
             {
-                "title": "Projetos",
-                "icon": "fa-briefcase",
-                "text": " Atualmente o GrupyXYZ possui poucos projetos em andamento:" +\
-                        "Traduções do Django-docs e Python on Campus.",
+                "title": "Entre em Contato",
+                "icon": "fa-paper-plane",
+                "text": "Deseja participar? Sugerir uma atividade ou simplesmente acompanhar o grupo?"
+                        " Contacte-nos via Telegram.",
                 "buttons": [
                     {
-                        "text": "Mais detalhes",
-                        "href": "projetos",
+                        "text": "Telegram",
+                        "href": "https://telegram.me/joinchat/COYq6QM8RkebVUVK1WxRHQ",
                     },
-                ],
+                           ]
             },
+            # {
+            #     "title": "Projetos",
+            #     "icon": "fa-briefcase",
+            #     "text": " Atualmente o PyNorte possui poucos projetos em andamento:" +\
+            #             "Traduções do Django-docs e Python on Campus.",
+            #     "buttons": [
+            #         {
+            #             "text": "Mais detalhes",
+            #             "href": "projetos",
+            #         },
+            #     ],
+            # },
         ]
     },
-    {
-        "color": "blue-grey lighten-4",
-        "title": "Nosso Projetos",
-        "items": [
-            {
-            "title": "MIG-29",
-            "icon": "fa-fighter-jet",
-            "text": "MIG-29 é um caça Russo cujo projeto original visava" +\
-                    "superar o F-22 Raptor",
-            "buttons": [
-                    {
-                        "text": "Código Fonte",
-                        "href": "#",
-                    },
-                    {
-                        "text": "Wiki",
-                        "href": "#",
-                    },
-                ]
-            },
-            {
-            "title": "SNES",
-            "icon": "fa-gamepad",
-            "text": "O Super Nintendo Entertainment Systems visa superar" +\
-                    "o sucesso de seu antecessor, o NES.",
-            "buttons": [
-                    {
-                        "text": "Site",
-                        "href": "#",
-                    },
-                    {
-                        "text": "Comprar",
-                        "href": "#",
-                    },
-                ]
-            }
-        ]
-    },
-    {
-        "color": "blue-grey lighten-5",
-        "title": "Entre em Contato",
-        "items": [
-            {
-            "title": "",
-            },
-            {
-            "icon": "fa-envelope",
-            "buttons": [
-                    {
-                        "text": "Envie um e-mail!",
-                        "href": "#",
-                    },
-                ]
-            }
-        ]
-    }
+    # {
+    #     "color": "blue-grey lighten-4",
+    #     "title": "Nosso Projetos",
+    #     "items": [
+    #         {
+    #         "title": "MIG-29",
+    #         "icon": "fa-fighter-jet",
+    #         "text": "MIG-29 é um caça Russo cujo projeto original visava" +\
+    #                 "superar o F-22 Raptor",
+    #         "buttons": [
+    #                 {
+    #                     "text": "Código Fonte",
+    #                     "href": "#",
+    #                 },
+    #                 {
+    #                     "text": "Wiki",
+    #                     "href": "#",
+    #                 },
+    #             ]
+    #         },
+    #         {
+    #         "title": "SNES",
+    #         "icon": "fa-gamepad",
+    #         "text": "O Super Nintendo Entertainment Systems visa superar" +\
+    #                 "o sucesso de seu antecessor, o NES.",
+    #         "buttons": [
+    #                 {
+    #                     "text": "Site",
+    #                     "href": "#",
+    #                 },
+    #                 {
+    #                     "text": "Comprar",
+    #                     "href": "#",
+    #                 },
+    #             ]
+    #         }
+    #     ]
+    # },
+    # {
+    #     "color": "blue-grey lighten-5",
+    #     "title": "Entre em Contato",
+    #     "items": [
+    #         {
+    #         "title": "",
+    #         },
+    #         {
+    #         "icon": "fa-envelope",
+    #         "buttons": [
+    #                 {
+    #                     "text": "Envie um e-mail!",
+    #                     "href": "#",
+    #                 },
+    #             ]
+    #         }
+    #     ]
+    # }
     ]
 
 from themes.malt.functions import *
