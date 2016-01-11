@@ -83,6 +83,11 @@ SOCIAL_LINKS = (
         "icon": "fa-globe",
         "text": "Python",
     },
+    {
+        "href": "https://telegram.me/joinchat/COYq6QM8RkebVUVK1WxRHQ",
+        "icon": "fa-paper-plane",
+        "text": "Telegram",
+    }
 )
 
 # Membros do Grupy
