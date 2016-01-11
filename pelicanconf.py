@@ -11,7 +11,7 @@ from baseconf import *
 from collections import OrderedDict
 
 # Configurações Base
-SITENAME = u'Grupy-XYZ'
+SITENAME = u'Python Norte'
 AUTHOR = u'Autor-Padrão'
 THEME = "themes/malt"
 MALT_BASE_COLOR = "blue-grey"
@@ -27,9 +27,9 @@ SITE_LOGO_MOBILE = "images/logo-mobile.png"
 
 # Home settings
 WELCOME_TITLE = "Seja bem vindo ao {}".format(SITENAME)
-WELCOME_TEXT = "Grupo de usuários da linguagem Python em XYZ."
+WELCOME_TEXT = "Grupo de usuários da linguagem Python do Norte do Brasil."
 SITE_BACKGROUND_IMAGE = "images/banners/background.png"
-FOOTER_ABOUT = "O Grupy-XYZ é uma comunidade de usuários... bla bla bla... "
+FOOTER_ABOUT = "O Grupo Python Norte é uma comunidade de usuários do Acre, Amazonas, Pará, Rondônia, Roraima e Amapá"
 
 # Tema do Syntax Hightlight
 PYGMENTS_STYLE = "perldoc"
@@ -87,12 +87,12 @@ SOCIAL_LINKS = (
 
 # Membros do Grupy
 MEMBROS = OrderedDict((
-    ("Magnun Leno", {
-        "twitter": "@mind_bend",
-        "github": "magnunleno",
+    ("Nilo Menezes", {
+        "twitter": "@lskbr",
+        "github": "lskbr",
         "site": {
-            "nome": "Mind Bending",
-            "href": "http://mindbending.org",
+            "nome": "Nilo Menezes",
+            "href": "http://www.nilo.pro.br",
             }
         }),
 ))
