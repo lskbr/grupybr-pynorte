@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 SITEURL = ''
 DEFAULT_LANG = u'pt'
 DEFAULT_PAGINATION = False
-TIMEZONE = 'America/Sao_Paulo'
+TIMEZONE = 'America/Manaus'
 SUMMARY_MAX_LENGTH = 35
 
 ### URL and Page generation settings
@@ -71,3 +71,8 @@ SITEMAP = {
         'pages': 'monthly'
     },
 }
+
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
+
