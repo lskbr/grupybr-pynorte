@@ -5,84 +5,84 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/</loc>
-<lastmod>2016-01-11T13:30:46-00:00</lastmod>
+<lastmod>2016-01-11T13:44:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/archives.html</loc>
-<lastmod>2016-01-11T13:30:46-00:00</lastmod>
+<lastmod>2016-01-11T13:44:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/index</loc>
-<lastmod>2016-01-11T13:30:46-00:00</lastmod>
+<lastmod>2016-01-11T13:44:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/blog/outra-demonstracao-de-header-dinamico</loc>
-<lastmod>2015-07-30T02:02:00-03:00</lastmod>
+<lastmod>2015-07-30T02:02:00-04:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/blog/demonstracao-de-header-dinamico</loc>
-<lastmod>2015-07-30T00:59:00-03:00</lastmod>
+<lastmod>2015-07-30T00:59:00-04:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/blog/artigo-de-demonstracao</loc>
-<lastmod>2015-07-30T00:09:00-03:00</lastmod>
+<lastmod>2015-07-30T00:09:00-04:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/blog/categorias/tutoriais</loc>
-<lastmod>2015-07-30T02:02:00-03:06</lastmod>
+<lastmod>2015-07-30T02:02:00-04:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/blog/tags/pelican</loc>
-<lastmod>2015-07-30T02:02:00-03:06</lastmod>
+<lastmod>2015-07-30T02:02:00-04:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/blog/tags/demonstracao</loc>
-<lastmod>2015-07-30T02:02:00-03:06</lastmod>
+<lastmod>2015-07-30T02:02:00-04:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/blog/tags/tutorial</loc>
-<lastmod>2015-07-30T02:02:00-03:06</lastmod>
+<lastmod>2015-07-30T02:02:00-04:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/blog/tags/site</loc>
-<lastmod>2015-07-30T02:02:00-03:06</lastmod>
+<lastmod>2015-07-30T02:02:00-04:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/blog/autores/magnun-leno</loc>
-<lastmod>2015-07-30T02:02:00-03:06</lastmod>
+<lastmod>2015-07-30T02:02:00-04:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
