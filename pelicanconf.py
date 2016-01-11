@@ -29,7 +29,7 @@ SITE_LOGO_MOBILE = "images/logo-mobile.png"
 WELCOME_TITLE = "Seja bem vindo ao {}".format(SITENAME)
 WELCOME_TEXT = "Grupo de usuários da linguagem Python do Norte do Brasil."
 SITE_BACKGROUND_IMAGE = "images/banners/background.png"
-FOOTER_ABOUT = "O Grupo Python Norte é uma comunidade de usuários do Acre, Amazonas, Pará, Rondônia, Roraima e Amapá"
+FOOTER_ABOUT = "O Grupo Python Norte é uma comunidade de usuários do Acre, Amazonas, Pará, Rondônia, Roraima, Amapá e Tocantins"
 
 # Tema do Syntax Hightlight
 PYGMENTS_STYLE = "perldoc"
