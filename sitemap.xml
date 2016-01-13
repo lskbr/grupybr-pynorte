@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/</loc>
-<lastmod>2016-01-12T11:46:10-00:00</lastmod>
+<lastmod>2016-01-13T07:05:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/archives.html</loc>
-<lastmod>2016-01-12T11:46:10-00:00</lastmod>
+<lastmod>2016-01-13T07:05:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/comunidade</loc>
-<lastmod>2016-01-12T11:46:10-00:00</lastmod>
+<lastmod>2016-01-13T07:05:57-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/index</loc>
-<lastmod>2016-01-12T11:46:10-00:00</lastmod>
+<lastmod>2016-01-13T07:05:57-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://lskbr.github.io/grupybr-pynorte/membros</loc>
-<lastmod>2016-01-12T11:46:10-00:00</lastmod>
+<lastmod>2016-01-13T07:05:57-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
