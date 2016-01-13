@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Norte</title><link>http://pynorte.python.org.br/</link><description></description><atom:link href="http://pynorte.python.org.br/blog/feeds.rss" rel="self"></atom:link><lastBuildDate>Thu, 30 Jul 2015 02:02:00 -0400</lastBuildDate><item><title>Outra Demonstração de Header Dinâmico</title><link>http://pynorte.python.org.br/blog/outra-demonstracao-de-header-dinamico</link><description>&lt;html&gt;&lt;body&gt;&lt;p&gt;Este artigo está aqui meramente para demonstrar mais uma atribuição dinâmica de imagens para headers de artigos.&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Magnun Leno</dc:creator><pubDate>Thu, 30 Jul 2015 02:02:00 -0400</pubDate><guid>tag:pynorte.python.org.br,2015-07-30:blog/outra-demonstracao-de-header-dinamico</guid><category>tutorial</category><category>demonstração</category><category>pelican</category><category>site</category></item><item><title>Demonstração de Header Dinâmico</title><link>http://pynorte.python.org.br/blog/demonstracao-de-header-dinamico</link><description>&lt;html&gt;&lt;body&gt;&lt;p&gt;Este artigo está aqui meramente para demonstrar a atribuição dinâmica de imagens para headers de artigos.&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Magnun Leno</dc:creator><pubDate>Thu, 30 Jul 2015 00:59:00 -0400</pubDate><guid>tag:pynorte.python.org.br,2015-07-30:blog/demonstracao-de-header-dinamico</guid><category>tutorial</category><category>demonstração</category><category>pelican</category><category>site</category></item><item><title>Artigo de Demonstração</title><link>http://pynorte.python.org.br/blog/artigo-de-demonstracao</link><description>&lt;html&gt;&lt;body&gt;&lt;p&gt;Este é um artigo de demonstração para o site do Grupy-XYZ, mas ele não é de todo inútil pois demonstra algumas funcionalidades do tema padrão. Por favor, antes de publicar seu site remova este artigo!&lt;/p&gt;
-&lt;div class="section" id="cabecalho-do-artigo"&gt;
-&lt;h2&gt;Cabeçalho do Artigo&lt;/h2&gt;
-&lt;p&gt;Todo artigo tem um cabeçalho fixo, conforme abaixo (em ReST):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="gh"&gt;Artigo de Demonstração&lt;/span&gt;
-&lt;span class="gh"&gt;======================&lt;/span&gt;
-&lt;span class="nc"&gt;:date:&lt;/span&gt; &lt;span class="nf"&gt;2015-07-30 00:09&lt;/span&gt;
-&lt;span class="nc"&gt;:author:&lt;/span&gt; &lt;span class="nf"&gt;Magnun Leno&lt;/span&gt;
-&lt;span class="nc"&gt;:category:&lt;/span&gt; &lt;span class="nf"&gt;Tutoriais&lt;/span&gt;
-&lt;span class="nc"&gt;:tags:&lt;/span&gt; &lt;span class="nf"&gt;tutorial, demonstração, pelican, site&lt;/span&gt;
-&lt;span class="nc"&gt;:image:&lt;/span&gt; &lt;span class="nf"&gt;/images/monty-python-knights.jpg&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Ou em Markdown:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;Title: Artigo de Demonstração
-Date: 2015-07-30 00:09
-Author: Magnun Leno
-Category: Tutoriais
-Tags: tutorial, demonstração, pelican, site
-Image: /images/monty-python-knights.jpg
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Como você pode ver, é tudo muito intuitivo, temos o título do artigo (a primeira linha em ReST, ou a precedida por &lt;tt class="docutils literal"&gt;Title:&lt;/tt&gt; em Markdown) seguido da data de publicação (no formato &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;YYYY-MM-DD&lt;/span&gt; HH:MM&lt;/tt&gt;). Logo abaixo temos o nome do autor, categoria a qual este artigo pertence e uma lista de tags. Somente a última tag é algo implementado pelo tema &lt;a class="reference external" href="https://github.com/grupydf/malt"&gt;Malt&lt;/a&gt; e não é nativo do Pelican.&lt;/p&gt;
-&lt;p&gt;A Tag &lt;tt class="docutils literal"&gt;:image::&lt;/tt&gt; ou &lt;tt class="docutils literal"&gt;Image:&lt;/tt&gt; (em Markdown) faz referência à imagem de capa do artigo, que também fica no "cabeçalho" do artigo.&lt;/p&gt;
-&lt;p&gt;Caso não seja especificada nenhuma imagem na metatag &lt;cite&gt;:image:&lt;/cite&gt; (ou &lt;cite&gt;Image:&lt;/cite&gt;, caso você esteja utilizando Markdown) o tema buscará imagens no diretório &lt;cite&gt;content/images/banners/*{png,jpg}&lt;/cite&gt; e irá atribuir (pseudo) aleatoriamente uma imagem para cada artigo, tendo como semente da pseudo aleatoriedade a data do artigo, garantindo assim que o "&lt;em&gt;banner&lt;/em&gt;" do artigo não varie a cada compilação do site.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/body&gt;&lt;/html&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Magnun Leno</dc:creator><pubDate>Thu, 30 Jul 2015 00:09:00 -0400</pubDate><guid>tag:pynorte.python.org.br,2015-07-30:blog/artigo-de-demonstracao</guid><category>tutorial</category><category>demonstração</category><category>pelican</category><category>site</category></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Norte</title><link>http://pynorte.python.org.br/</link><description></description><atom:link href="http://pynorte.python.org.br/blog/feeds.rss" rel="self"></atom:link><lastBuildDate>Wed, 13 Jan 2016 23:14:00 -0400</lastBuildDate><item><title>Primeiros Passos</title><link>http://pynorte.python.org.br/blog/primeiros-passos</link><description>&lt;html&gt;&lt;body&gt;&lt;p&gt;Finalmente começamos a orgnanizar nosso grupo!
+O site já está no ar, assim como nossa lista de mensagens.&lt;/p&gt;
+&lt;p&gt;O primeiro objetivo é organizar uma agenda de hangouts.
+A data sugerida é que sejam no premeiro sábado de cada mês.
+O horário ainda não está definido, mas deve ser algo como:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;13:00 h Rio Branco (GMT-5)&lt;/li&gt;
+&lt;li&gt;14:00 h Manaus (GMT-4)&lt;/li&gt;
+&lt;li&gt;15:00 h Belém (GMT-3)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Primeiro sábado de Fevereiro 2016: 06/02/2016&lt;/p&gt;
+&lt;p&gt;O hangout será gravado e o link disponibilizado.
+Ainda temos que definir quem fará o quê, mas se ninguém quiser apresentar nada no dia 06/02, eu
+devo apresentar o gerenciamento de data e hora do Python com fusos horários.
+Devemos ter tempo para nos apresentarmos e conversar um pouco também.&lt;/p&gt;
+&lt;p&gt;Pauta:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Boas vindas, apresentações&lt;/li&gt;
+&lt;li&gt;Apresentação de Gestão da Data e Hora do Python com fusos horários - Nilo Menezes&lt;/li&gt;
+&lt;li&gt;Decidir as próximas apresentações&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Duração: entre 1h e 1:30h&lt;/p&gt;
+&lt;/body&gt;&lt;/html&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nilo Menezes</dc:creator><pubDate>Wed, 13 Jan 2016 23:14:00 -0400</pubDate><guid>tag:pynorte.python.org.br,2016-01-13:blog/primeiros-passos</guid><category>site</category></item></channel></rss>
