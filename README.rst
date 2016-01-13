@@ -1,7 +1,7 @@
 Template para Grupys-BR
 =======================
 
-Este é um "Site Demo" para ser utilizado como base pelos Grupys-BR.
+Este é o site da comidate PyNorte, baseado no site desenvolvido pelo Grupy-DF.
 
 Requerimentos:
 
@@ -12,11 +12,11 @@ Requerimentos:
 Instalação & Utilização
 -----------------------
 
-Para utilizar este demo para o *bootstrap* do seu GrupyBR primeiramente faça um *fork* do projeto e em seguida clone-o em sua máquina local:
+Para utilizar este site primeiramente faça um *fork* do projeto e em seguida clone-o em sua máquina local:
 
 .. code::
 
-    $ git clone --recursive git@github.com:magnunleno/grupybr-template.git && cd grupybr-template
+    $ git clone --recursive git@github.com:lskbr/grupybr-pynorte.git && cd grupybr-pynorte
 
 
 Em seguida crie um *Virtual Environment* e instale todos os pré-requisitos do Pelican:
@@ -24,8 +24,8 @@ Em seguida crie um *Virtual Environment* e instale todos os pré-requisitos do P
 .. code::
 
     $ mkdir ~/venv
-    $ virtualenv --prompt "(grupybr)" ~/venv/grupybr
-    $ . ~/venv/grupy-df/bin/activate
+    $ virtualenv --prompt "(pynorte)" ~/venv/pynorte
+    $ . ~/venv/pynorte/bin/activate
     $ pip install -r requirements.txt
 
 Agora basta compilar e servir o site:
