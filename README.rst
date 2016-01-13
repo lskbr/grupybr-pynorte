@@ -1,7 +1,7 @@
 Template para Grupys-BR
 =======================
 
-Este é o site da comidate PyNorte, baseado no site desenvolvido pelo Grupy-DF.
+Este é o site da comunidade PyNorte, baseado no site desenvolvido pelo Grupy-DF.
 
 Requerimentos:
 
