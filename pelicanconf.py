@@ -124,6 +124,10 @@ MEMBROS = OrderedDict((
             "href": "http://www.nilo.pro.br",
             }
         }),
+
+        ("Adriano Praia", {
+           "github": "adrianopraia",
+        }),
 ))
 
 MALT_HOME = [
