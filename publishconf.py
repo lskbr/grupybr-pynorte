@@ -17,7 +17,7 @@ FEED_ALL_RSS = 'blog/feeds.rss'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-DISQUS_SITENAME = "pynorte"
+DISQUS_SITENAME = "pynorte.disqus.com"
 DISQUS_NO_ID = True
 
 # Following items are often useful when publishing
