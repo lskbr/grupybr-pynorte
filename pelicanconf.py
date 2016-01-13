@@ -38,7 +38,7 @@ SITE_LOGO_MOBILE = "images/logo-mobile.png"
 WELCOME_TITLE = "Seja bem vindo ao {}".format(SITENAME)
 WELCOME_TEXT = "Grupo de usuários da linguagem Python do Norte do Brasil."
 SITE_BACKGROUND_IMAGE = "images/banners/background.png"
-FOOTER_ABOUT = "O Grupo Python Norte é uma comunidade de usuários do Acre, Amazonas, Pará, Rondônia, Roraima, Amapá e Tocantins"
+FOOTER_ABOUT = "O Grupo Python Norte é uma comunidade de usuários do Acre, Amapá, Amazonas, Pará, Rondônia, Roraima e Tocantins"
 
 # Tema do Syntax Hightlight
 PYGMENTS_STYLE = "perldoc"
@@ -120,12 +120,36 @@ MEMBROS = OrderedDict((
         "twitter": "@lskbr",
         "github": "lskbr",
         "site": {
-                 "nome": "Nilo Menezes",
-                 "href": "http://www.nilo.pro.br",
-                }
+            "nome": "Nilo Menezes",
+            "href": "http://www.nilo.pro.br",
+            }
         }),
     ("Adriano Praia", {
-           "github": "adrianopraia",
+        "github": "adrianopraia",
+        }),
+    ("Marcos Thomaz", {
+        "twitter": "@marcosthomazs",
+        "github": "thomazs",
+        "site": {
+            "nome": "Marcos Thomaz da Silva",
+            "href": "http://conceitoti.blogspot.com.br/",
+            }
+        }),
+    ("Felipe Colen", {
+        "twitter": "@felipecolen",
+        "github": "felipecolen",
+        "site": {
+            "nome": "Felipe Oliveira Colen",
+            "href": "https://br.linkedin.com/in/felipecolen",
+            }
+        }),
+    ("Marcos Duran", {
+        "twitter": "@mdzain",
+        "github": "zapduran",
+        "site": {
+            "nome": "Marcos Duran",
+            "href": "http://www.mdzain.com/",
+            }
         }),
 ))
 
@@ -172,7 +196,7 @@ MALT_HOME = [
                         "text": "Telegram",
                         "href": "https://telegram.me/joinchat/COYq6QM8RkebVUVK1WxRHQ",
                     },
-                           ]
+                ]
             },
             # {
             #     "title": "Projetos",
@@ -188,6 +212,7 @@ MALT_HOME = [
             # },
         ]
     },
+
     # {
     #     "color": "blue-grey lighten-4",
     #     "title": "Nosso Projetos",
@@ -244,6 +269,6 @@ MALT_HOME = [
     #         }
     #     ]
     # }
-    ]
+]  # end MALT_HOME
 
 from themes.malt.functions import *
