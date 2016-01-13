@@ -132,7 +132,7 @@ MEMBROS = OrderedDict((
         "github": "thomazs",
         "site": {
             "nome": "Marcos Thomaz da Silva",
-            "href": "http://conceitoti.blogspot.com.br/",
+            "href": "https://br.linkedin.com/in/marcosthomaz",
         }
     }),
     ("Felipe Colen", {
