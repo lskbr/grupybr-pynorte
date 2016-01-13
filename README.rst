@@ -1,5 +1,5 @@
-Template para Grupys-BR
-=======================
+PyNorte
+=======
 
 Este é o site da comunidade PyNorte, baseado no site desenvolvido pelo Grupy-DF.
 
