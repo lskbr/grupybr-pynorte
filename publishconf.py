@@ -9,8 +9,8 @@ sys.path.append(os.curdir)
 
 from pelicanconf import *
 
-SITEURL = 'http://lskbr.github.io/grupybr-pynorte'
-RELATIVE_URLS = False
+SITEURL = 'http://pynorte.python.org.br'
+RELATIVE_URLS = True
 
 FEED_ALL_ATOM = 'blog/feeds.atom'
 FEED_ALL_RSS = 'blog/feeds.rss'

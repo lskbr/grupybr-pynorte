@@ -120,12 +120,11 @@ MEMBROS = OrderedDict((
         "twitter": "@lskbr",
         "github": "lskbr",
         "site": {
-            "nome": "Nilo Menezes",
-            "href": "http://www.nilo.pro.br",
-            }
+                 "nome": "Nilo Menezes",
+                 "href": "http://www.nilo.pro.br",
+                }
         }),
-
-        ("Adriano Praia", {
+    ("Adriano Praia", {
            "github": "adrianopraia",
         }),
 ))
