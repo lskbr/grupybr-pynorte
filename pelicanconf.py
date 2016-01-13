@@ -122,35 +122,43 @@ MEMBROS = OrderedDict((
         "site": {
             "nome": "Nilo Menezes",
             "href": "http://www.nilo.pro.br",
-            }
-        }),
+        }
+    }),
     ("Adriano Praia", {
         "github": "adrianopraia",
-        }),
+    }),
     ("Marcos Thomaz", {
         "twitter": "@marcosthomazs",
         "github": "thomazs",
         "site": {
             "nome": "Marcos Thomaz da Silva",
             "href": "http://conceitoti.blogspot.com.br/",
-            }
-        }),
+        }
+    }),
     ("Felipe Colen", {
         "twitter": "@felipecolen",
         "github": "felipecolen",
         "site": {
             "nome": "Felipe Oliveira Colen",
             "href": "https://br.linkedin.com/in/felipecolen",
-            }
-        }),
+        }
+    }),
     ("Marcos Duran", {
         "twitter": "@mdzain",
         "github": "zapduran",
         "site": {
             "nome": "Marcos Duran",
             "href": "http://www.mdzain.com/",
-            }
-        }),
+        }
+    }),
+    ("Breno Thales", {
+        "twitter": "@brenothales",
+        "github": "brenothales",
+        "site": {
+            "nome": "Breno Thales",
+            "href": "https://br.linkedin.com/in/breno-thales-2aa8631b/pt",
+        }
+    }),
 ))
 
 MALT_HOME = [
